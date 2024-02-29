@@ -299,6 +299,11 @@
     padding: 17px 16px;
     display: flex;
   }
+  .text-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 
   #testimonials {
     /* background-color: lightcoral; */
@@ -313,13 +318,18 @@
     height: 270px;
     /* margin: auto; */
   }
+
+  .carousel-item .card {
+    background-color: #F1F3FF;
+    border: none;
+}
   
   .carousel-control-prev-icon {
     background-image: url("./assets/img/Vector.svg");
   }
   
   .carousel-control-next-icon {
-    background-image: url("assets/img/Vector-kanan.svg");
+    background-image: url("./assets/img/Vector-kanan.svg");
   }
 /* end testimonial */
 
